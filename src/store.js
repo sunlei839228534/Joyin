@@ -483,9 +483,9 @@ export default new Vuex.Store({
       },
       wangmengyun: {
         id: '05b69ca3-12d2-403e-b7e3-asdasd-zxc',
-        youzanUrl: 'http://api-youzan-daily.blissr.cn/starmaker/youzan/item/get/446708419',
+        youzanUrl: 'http://api-youzan-daily.blissr.cn/starmaker/youzan/item/get/450267794',
         type: 'wangmengyun',
-        stateUrl: 'https://h5.youzan.com/v2/goods/3f0g8ax8pm9fj',
+        stateUrl: 'https://shop42114007.youzan.com/v2/goods/3eubvyiyxwmhb',
         stage: 'ongoing',
         title: '福布斯女孩汪梦云首张环球旅行专辑项目',
         target: 110304,
