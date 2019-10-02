@@ -549,11 +549,11 @@ export default {
     },
     pageData() {
       const type = this.$route.params.type
+      console.log(type)
       return this.$store.state.project[type];
     }
   },
   async created () {
-
     this.testYouZan({
       url: this.pageData.youzanUrl,
       type: this.pageData.type,

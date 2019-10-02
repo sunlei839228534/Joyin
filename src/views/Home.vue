@@ -57,7 +57,7 @@
                   :key="poster.id"
                   v-if="poster.type === 'image'"
                 >
-              <div style="position:absolute;width:100%;height:100%;z-index:1000;
+              <div v-show="project.isEnd" style="position:absolute;width:100%;height:100%;z-index:1000;
               background-color: rgba(0, 2, 6, 0.58);
               color: rgb(255, 255, 255);
               line-height: 40rem;
@@ -179,6 +179,9 @@ export default {
         wangmengyun: {
           flag: false,
         },
+        zhuyuntianzhuyunyi: {
+          flag: false
+        }
       },
     };
   },
@@ -276,6 +279,7 @@ export default {
   line-height:2.33rem;
 .projectlist-subtitle
   overflow: hidden;
+  height: 3.67rem;
   font-size:1.17rem;
   font-weight:500;
   line-height:1.67rem;

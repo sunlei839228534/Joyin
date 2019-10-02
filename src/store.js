@@ -42,9 +42,199 @@ export default new Vuex.Store({
       },
     ],
     project: {
+      zhuyuntianzhuyunyi: {
+        id: '05b69ca3-12d2-403e-b7e3-asdasd-zyt',
+        isEnd: false,
+        youzanUrl: 'http://api-youzan-daily.blissr.cn/starmaker/youzan/item/get/513849361',
+        type: 'zhuyuntianzhuyunyi',
+        stateUrl: 'https://shop42114007.youzan.com/v2/goods/278zewcbk1olb',
+        stage: 'ongoing',
+        title: '朱匀天朱匀一回到你身边',
+        target: 17600,
+        intro: '全能双子星朱匀天朱匀一 强势回归 就在这一天 重新出发',
+        isOnShelves: true,
+        posters: [
+          {
+            id: '93e6dee7-97ae-40fd-a4be-0951-1a23dqw2',
+            url: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/ID%20logo.m4v',
+            type: 'video',
+            cover: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/zytzyycover.png',
+          },
+          {
+            id: '93e6dee7-97ae-40fd-a4be-0951-121ea23sdqw2',
+            url: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/zytzyycover.png',
+            type: 'image',
+            cover: '',
+          },
+        ],
+        detailItems: [
+          {
+            id: '026e35ca-9c25-4f68-bf8a-506s0a9a9acb1',
+            url: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/zytzyy.png',
+            name: null,
+            tags: [
+
+            ],
+            type: 'image',
+            cover: null,
+            alt: null,
+            createdAt: '2018-12-07T01:52:20.664Z',
+            updatedAt: '2018-12-07T01:52:20.664Z',
+            version: 1,
+          },
+          // {
+          //   id: '825faf2c-f89f-4696-a943-bb00f8609410',
+          //   url: 'http://starmaker.joyin.online/wangmengyun/002.png',
+          //   name: null,
+          //   tags: [
+
+          //   ],
+          //   type: 'image',
+          //   cover: null,
+          //   alt: null,
+          //   createdAt: '2018-12-07T01:52:32.132Z',
+          //   updatedAt: '2018-12-07T01:52:32.132Z',
+          //   version: 1,
+          // },
+          // {
+          //   id: '18d90e87-fb6b-4d56-b33e-e3bf87d5aad1',
+          //   url: 'http://starmaker.joyin.online/wangmengyun/003.png',
+          //   name: null,
+          //   tags: [
+
+          //   ],
+          //   type: 'image',
+          //   cover: null,
+          //   alt: null,
+          //   createdAt: '2018-12-07T01:52:59.656Z',
+          //   updatedAt: '2018-12-07T01:52:59.656Z',
+          //   version: 1,
+          // },
+          // {
+          //   id: '6d323382-bbaa-4e7d-bc7b-2392745d1b42',
+          //   url: 'http://starmaker.joyin.online/wangmengyun/004.png',
+          //   name: null,
+          //   tags: [
+
+          //   ],
+          //   type: 'image',
+          //   cover: null,
+          //   alt: null,
+          //   createdAt: '2018-12-07T01:52:44.071Z',
+          //   updatedAt: '2018-12-07T01:52:44.071Z',
+          //   version: 1,
+          // },
+          // {
+          //   id: '929054fe-a323-41a2-9b65-0a3138a424ae',
+          //   url: 'http://starmaker.joyin.online/wangmengyun/004.png',
+          //   name: null,
+          //   tags: [
+
+          //   ],
+          //   type: 'image',
+          //   cover: null,
+          //   alt: null,
+          //   createdAt: '2018-12-07T01:53:14.428Z',
+          //   updatedAt: '2018-12-07T01:53:14.428Z',
+          //   version: 1,
+          // },
+        ],
+        funders: [
+          {
+            id: 'f174b649-98fa-4476-a60c-154d9759ee83',
+            name: '朱匀天朱匀一',
+            avatarUrl: {
+              id: 'aeac51b5-34df-4650-bf82-5cfe7073b316',
+              url: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/zytzyyavatar.png',
+              type: 'image',
+              cover: null,
+            },
+            createdAt: '2018-12-07T00:00:56.954Z',
+            updatedAt: '2018-12-07T00:00:56.954Z',
+            version: 1,
+          },
+        ],
+        createdAt: '2018-12-06T23:56:40.937Z',
+        updatedAt: '2018-12-07T03:26:40.000Z',
+        version: 40,
+        moments: [
+
+        ],
+        noticeList: [
+          // {
+          //   condition: '150%追加',
+          //   reward: '未公开限量签名专属礼物',
+          // },
+          // {
+          //   condition: '300%追加',
+          //   reward: '所有签名和感谢均升级为专属1对1签名',
+          // },
+        ],
+        parapacks: [
+          {
+            id: 'c75caefa-2e01-4d55-b91c-21b2a0aceb73',
+            title: 'SET1',
+            price: 7.6,
+            list: [
+              "特别制作人电子证书","电子写真集30P"
+            ],
+            total: 0,
+            status: true,
+            isOnShelves: true,
+            createdAt: '2018-12-07T00:08:24.200Z',
+            updatedAt: '2018-12-07T00:08:24.000Z',
+            version: 2,
+          },
+          {
+            id: 'cd139121-325b-4f8e-ab69-94b6ee340eb8',
+            title: 'SET2',
+            price: 76.76,
+            list: [
+              "特别制作人电子证书",
+              "电子写真集30P",
+              "歌曲制作人名字歌曲滚动",
+              "限定版电子写真集及写真集提名感谢(含Special Pages)",
+              "朱匀天朱匀一甜蜜温柔的独家定制闹钟文件",
+              "全程限定未公开制作花絮视频"
+            ],
+            total: 0,
+            status: true,
+            isOnShelves: true,
+            createdAt: '2018-12-07T00:08:18.838Z',
+            updatedAt: '2018-12-07T00:08:19.000Z',
+            version: 2,
+          },
+          {
+            id: '6e6f133b-7f76-4f51-bfa5-4259f9c41f46',
+            title: 'SET3',
+            price: 176.76,
+            list: [
+              "特别制作人电子证书",
+              "电子写真集30P",
+              "歌曲制作人名字歌曲滚动",
+              "限定版电子写真集及写真集提名感谢(含Special Pages)",
+              "朱匀天朱匀一甜蜜温柔的独家定制闹钟文件",
+              "全程限定未公开制作花絮视频",
+              "只有在本项目才有的实体写真集+写真集内特别制作人提名(按照购买次数提名,多次购买多次提名)",
+              "只有你独一份的手写定向粉丝签名感谢卡"
+            ],
+            total: 0,
+            status: true,
+            isOnShelves: true,
+            createdAt: '2018-12-07T00:08:11.982Z',
+            updatedAt: '2018-12-07T00:08:12.000Z',
+            version: 2,
+          },
+        ],
+        dateRange: {
+          startOn: '2019-10-4',
+          endOn: '2019-11-3',
+        },
+      },
       nawukere: {
         id: '05b69ca3-12d2-403e-b7e3-471b7b0b134b',
         type: 'nawukere',
+        isEnd: true,
         stateUrl: 'https://h5.youzan.com/v2/goods/2x48j87masj73',
         stage: 'ongoing',
         title: '带上和那吾克热一起制作的点滴～迎接新年',
@@ -303,6 +493,7 @@ export default new Vuex.Store({
       },
       twinkle: {
         id: '05b69ca3-12d2-403e-b7e3-471b7b0b134b-asd1',
+        isEnd: true,
         youzanUrl: 'http://api-youzan-daily.blissr.cn/starmaker/youzan/item/get/446708419',
         type: 'twinkle',
         stateUrl: 'https://h5.youzan.com/v2/goods/3f0g8ax8pm9fj',
@@ -312,9 +503,15 @@ export default new Vuex.Store({
         intro: '耀莱影视重磅打造的TWINKLE女团，希望和粉丝们一起打造只属于我们的新年台历，2019年让你的每一天都有我们陪伴吧！',
         isOnShelves: true,
         posters: [
+          // {
+          //   id: '93e6dee7-97ae-40fd-a4be-0951-1a23dqw2',
+          //   url: 'http://starmaker.joyin.online/TW/video/TW-1.mp4',
+          //   type: 'video',
+          //   cover: 'http://starmaker.joyin.online/TW/video/cover.png',
+          // },
           {
             id: '93e6dee7-97ae-40fd-a4be-0951-1a23dqw2',
-            url: 'http://starmaker.joyin.online/TW/video/TW-1.mp4',
+            url: 'https://media-joyin-online.oss-cn-hangzhou.aliyuncs.com/TW-1.mp4',
             type: 'video',
             cover: 'http://starmaker.joyin.online/TW/video/cover.png',
           },
@@ -482,7 +679,8 @@ export default new Vuex.Store({
         },
       },
       wangmengyun: {
-        id: '05b69ca3-12d2-403e-b7e3-asdasd-zxc',
+        id: '05b69ca3-12d2-403e-b7e3-asdasd-zxcssaas',
+        isEnd: true,
         youzanUrl: 'http://api-youzan-daily.blissr.cn/starmaker/youzan/item/get/450267794',
         type: 'wangmengyun',
         stateUrl: 'https://shop42114007.youzan.com/v2/goods/3eubvyiyxwmhb',
